@@ -1,0 +1,151 @@
+body {
+  background: url("../images/background.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand img {
+  float: left;
+  width: 25px;
+  height: auto;
+}
+
+.navbar-brand {
+	font-size: 25px;	
+}
+
+.navbar-brand img {
+	float: left;
+	width: 25px;
+	height: auto;
+}
+
+.navbar-brand {
+	font-size: 25px;
+}
+
+.navbar-default {
+    background: #3C0E50;   
+}
+
+ul.nav a:hover { 
+	background: #703789 !important; 
+}
+    
+.jumbotron {
+	background-image: url(../images/titleimg.jpg);
+  background-size: cover;
+  background-position: center; 
+  font-family: 'Artifika', serif;
+	color: blue;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #7C3D97;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: 95px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#museum-type-input {
+  width: 35%;
+}
+
+#map {
+     height: 500px;
+     width: 65%;
+}
+
+.blue-letters {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+}
+
+p {
+  margin-left: 15px;
+  color: #FFE4E1;
+}
+
+#museum-view {
+  padding-left: 0px;
+}
+
+h4 {
+	font-family: 'Artifika', serif;
+	color: black !important;
+}
+
+#email-input {
+  width: 300px;
+}
+
+/*    PAGE1            */
+.panel-heading {
+    background: #3C0E50 !important;   
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+#btnLogin {   
+    background: #703789;
+    font-size: 15px;
+    border-color: #703789;
+    border-radius: 5px;
+}
+
+#email-input, #password-input {
+  border-radius: 5px;
+}
+
+h5 {
+  color: black;
+}
+
+#submit {
+  background: #703789;
+    font-size: 15px;
+    border-color: #703789;
+    border-radius: 5px;
+}
+
+@media print {
+.print {display: block !important;}
+.noprint {display: none;}
+}
